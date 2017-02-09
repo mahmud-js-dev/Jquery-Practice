@@ -12,7 +12,7 @@
       // Wrap a <strong> element around any text within 
       // a <li> that contains the pattern "jQuery" 
       var pattern = /jQuery/i;
-      $('ul li').filter(function () { return pattern.test($(this).text()); }).wrap('<strong></strong>');
+      $('li').filter(function () { return pattern.test($(this).text()); }).wrap('<strong></strong>');
   })(jQuery); </script>
 </body>
 </html>
